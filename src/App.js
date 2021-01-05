@@ -1,4 +1,5 @@
 import React from "react";
+import Routes from "./Routes";
 import Navbar from "react-bootstrap/Navbar";
 import "./App.css";
 
@@ -11,6 +12,7 @@ function App() {
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar>
+      <Routes />
     </div>
   );
 }
